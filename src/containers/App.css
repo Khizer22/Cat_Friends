@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "COOL BEANS";
+  src: url();
+}
+
+h1 {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: 200;
+  color: #0ccac4;
+}
