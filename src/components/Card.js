@@ -5,10 +5,10 @@ import './Card.css';
 const Card = ({name,email,id}) =>{
     return (
         <div className='myBG br3 pa3 ma2 grow bw10 shadow-5'> 
-            <img src={`https://robohash.org/${name}?set=set4`} alt='cats'/>
+            <img src={`https://robohash.org/${name}?set=set3`} alt='robot heads'/>
             <div>
                 <h2>{name}</h2>
-                <p>{email}</p>
+                <p>{`ID: ${id}`}</p>
             </div>
         </div>
     );

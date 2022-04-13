@@ -1,3 +1,15 @@
 .myBG {
-    background-color: rgba(239, 238, 180, 0.5);
+    background-color: rgb(39, 39, 67);
+}
+
+h2{
+    color: rgb(128, 214, 216);
+    outline-style:double;
+    outline-width: 5px;
+    outline-color: rgb(24, 14, 47);
+}
+
+p{
+    color : rgb(128, 214, 216);
+    font-weight: bold;
 }

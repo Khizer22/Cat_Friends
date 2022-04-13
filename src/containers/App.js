@@ -2,6 +2,7 @@ import React,{Component} from 'react';
 import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox'
 import Scroll from '../components/Scroll';
+import ErrorBoundry from './ErrorBoundry';
 import './App.css';
 
 //Props = properties that can be passed down.
@@ -39,10 +40,12 @@ class App extends Component {
         } else {
             return (
                 <div className='tc'>
-                    <h1 className='f1'>EMPLOYEES AT CAT FRIENDS</h1>
+                    <h1 className='f1'>REPLACEMENT HEADS</h1>
                     <SearchBox searchChange={this.onSearchChange}/>
                     <Scroll>
-                        <CardList cats={this.filtercats()}/>
+                        <ErrorBoundry>
+                            <CardList cats={this.filtercats()}/>
+                        </ErrorBoundry>
                     </Scroll>
                 </div>
             );

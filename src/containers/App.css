@@ -1,8 +1,8 @@
- @import url('https://fonts.googleapis.com/css?family=Luckiest+Guy'); 
+@import url('https://fonts.googleapis.com/css?family=Merienda'); 
 
 h1 {
-  font-family: "Luckiest Guy",monospace;
+  font-family: "Merienda",monospace;
   font-weight: 10;
   text-shadow: 4px 4px 4px rgb(18, 17, 17);
-  color: #58b368;
+  color: rgb(128, 214, 216);
 }
