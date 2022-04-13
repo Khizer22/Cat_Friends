@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Replacement_Heads/static/css/main.1b672cd6.css",
+    "main.js": "/Replacement_Heads/static/js/main.ae14eab4.js",
+    "index.html": "/Replacement_Heads/index.html",
+    "main.1b672cd6.css.map": "/Replacement_Heads/static/css/main.1b672cd6.css.map",
+    "main.ae14eab4.js.map": "/Replacement_Heads/static/js/main.ae14eab4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b672cd6.css",
+    "static/js/main.ae14eab4.js"
+  ]
+}
